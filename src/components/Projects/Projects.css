@@ -1,0 +1,24 @@
+.project-card{
+    position: relative;
+}
+
+.projects .project-card .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(124,58,237,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 0.3s ease;
+    padding: 1rem;
+}
+
+.projects .project-card:hover .overlay{
+    opacity: 1;
+}
