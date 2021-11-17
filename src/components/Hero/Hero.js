@@ -17,10 +17,10 @@ const Hero = () => {
               className="w-40 rounded-full border-4 border-purple-500"
               alt=""
             />
-            <h1 className=" font-bold text-4xl text-purple-500">GAURAV PATIL</h1>
+            <h1 className="font-bold text-4xl text-purple-500">GAURAV PATIL</h1>
             <div className="flex items-center">
-              <span className="text-lg mr-2">I Am A</span>{" "}
-              <div className="text-purple-500 text-lg font-semibold">
+              <span className="text-xl mr-2">I Am A</span>{" "}
+              <div className="text-purple-500 text-xl font-semibold">
                 <Typewriter
                   options={{
                     strings: [                      

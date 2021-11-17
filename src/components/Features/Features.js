@@ -12,14 +12,14 @@ const Features = () => {
       <section class="text-white bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
-            <h1 class="sm:text-3xl text-2xl tracking-wide font-medium title-font mb-4">
+            <h1 class="text-purple-500 tracking-wide text-3xl md:text-4xl lg:text-4xl font-bold  mb-4">
             <Wave text="FEATURES" speed={10} delay={1.5} />
             </h1>
             <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
               All the websites I build will have these features.
             </p>
             <div class="flex mt-6 justify-center">
-              <div class="w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
+              <div class="glow-shadow w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
             </div>
           </div>
           <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">

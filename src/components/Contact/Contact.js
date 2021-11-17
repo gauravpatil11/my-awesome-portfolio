@@ -5,18 +5,18 @@ const Contact = () => {
   return (
     <div>
       <section
-        className="text-white bg-gray-900 body-font relative"
+        className="text-white bg-gray-800 body-font relative"
         id="contact"
       >
         <div className="container px-5 py-24 mx-auto">
         <div class="text-center mb-20">
-          <h1 class="sm:text-3xl tracking-wide text-2xl font-medium title-font mb-4">
+          <h1 class="text-purple-500 tracking-wide text-3xl md:text-4xl lg:text-4xl font-bold  mb-4">
             <Wave text="CONTACT ME" speed={10} delay={1.5} />
           </h1>
           <p>If you’d like to chat about a project then please fill in the form
             below and I'll get back within 1-2 days.</p>
           <div class="flex mt-6 justify-center">
-            <div class="w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
+            <div class="glow-shadow w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
           </div>
         </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -64,7 +64,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="flex mx-auto text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">
+                  <button className="flex mx-auto text-white bg-purple-600 border-0 py-2 px-8 focus:outline-none hover:bg-purple-700 rounded text-lg">
                     SEND MESSAGE
                   </button>
                 </div>

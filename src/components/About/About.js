@@ -39,7 +39,7 @@ const About = () => {
     <section class="text-white bg-gray-800 body-font overflow-hidden px-6">
       <div class="container px-5 py-24 mx-auto">
         <div class="text-center mb-20">
-          <h1 class="sm:text-3xl text-purple-500 tracking-wide md:text-4xl font-bold  mb-4">
+          <h1 class="text-purple-500 tracking-wide text-3xl md:text-4xl lg:text-4xl font-bold  mb-4">
             <Wave text="ABOUT ME" speed={10} delay={1.5} />
           </h1>
           <p>
@@ -48,7 +48,7 @@ const About = () => {
             {getDifferenceInDays(birthDate, currDate)} days.
           </p>
           <div class="flex mt-6 justify-center">
-            <div class="w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
+            <div class="glow-shadow w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
           </div>
         </div>
         <div class="flex flex-wrap -m-12">
@@ -61,7 +61,7 @@ const About = () => {
               src="/images/profile.png"
               alt=""
             />
-            <h2 className="text-3xl font-bold my-3">Who's this guy ?</h2>
+            <h2 className="text-2xl font-bold my-3">Who's this guy ?</h2>
             <p className="text-center">
               I'm a Front-End Developer from Mumbai,India. I have
               serious passion for UI effects, animations and creating intuitive,
