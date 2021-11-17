@@ -13,7 +13,8 @@ const Contact = () => {
           <h1 class="sm:text-3xl tracking-wide text-2xl font-medium title-font mb-4">
             <Wave text="CONTACT ME" speed={10} delay={1.5} />
           </h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <p>If you’d like to chat about a project then please fill in the form
+            below and I'll get back within 1-2 days.</p>
           <div class="flex mt-6 justify-center">
             <div class="w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
           </div>
@@ -64,7 +65,7 @@ const Contact = () => {
                 </div>
                 <div className="p-2 w-full">
                   <button className="flex mx-auto text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">
-                    Submit
+                    SEND MESSAGE
                   </button>
                 </div>
               </div>

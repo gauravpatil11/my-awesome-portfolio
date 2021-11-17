@@ -9,14 +9,14 @@ import "./Features.css"
 const Features = () => {
   return (
     <div>
-      <section class="text-white bg-gray-800 body-font">
+      <section class="text-white bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl tracking-wide font-medium title-font mb-4">
             <Wave text="FEATURES" speed={10} delay={1.5} />
             </h1>
             <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
+              All the websites I build will have these features.
             </p>
             <div class="flex mt-6 justify-center">
               <div class="w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>

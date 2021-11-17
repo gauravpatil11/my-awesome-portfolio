@@ -23,11 +23,10 @@ const Hero = () => {
               <div className="text-purple-500 text-lg font-semibold">
                 <Typewriter
                   options={{
-                    strings: [
-                      "Web Developer",
-                      "Web Desiger",
-                      "Graphic Designer",
+                    strings: [                      
                       "Frontend Developer",
+                      "Programmer",
+                      "Learner"
                     ],
                     autoStart: true,
                     loop: true,

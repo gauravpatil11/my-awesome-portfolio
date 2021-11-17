@@ -30,7 +30,7 @@ const Footer = () => {
             background: "#8b5cf6",
             padding: "12px",
             boxShadow: "0px 0px 5px rgba(0,0,0,.5)",
-            marginRight: "70px",
+            // marginRight: "px",
           }}
         />
       </footer>
