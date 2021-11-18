@@ -43,7 +43,7 @@ const About = () => {
             <Wave text="ABOUT ME" speed={10} delay={1.5} />
           </h1>
           <p>
-            I'm a Front-End Developer, living on{" "}
+            I'm a Web Developer, living on{" "}
             <ImEarth className="inline-block" /> since{" "}
             {getDifferenceInDays(birthDate, currDate)} days.
           </p>
@@ -63,7 +63,7 @@ const About = () => {
             />
             <h2 className="text-2xl font-bold my-3">Who's this guy ?</h2>
             <p className="text-center">
-              I'm a Front-End Developer from Mumbai,India. I have
+              I'm a Web Developer from Mumbai,India. I have
               serious passion for UI effects, animations and creating intuitive,
               dynamic user experiences. Let's make something special.
             </p>
