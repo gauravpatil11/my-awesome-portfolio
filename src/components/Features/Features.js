@@ -23,7 +23,7 @@ const Features = () => {
             </div>
           </div>
           <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-            <div class="p-4 w-full sm:w-full md:w-1/2 lg:w-1/4  flex flex-col text-center items-center">
+            <div class="p-4 w-full sm:w-full md:w-1/2 lg:w-1/4  flex flex-col text-center items-center" data-aos="fade-right">
               <div class="w-20 h-20 inline-flex items-center justify-center rounded-full text-4xl bg-purple-500 text-white mb-5 flex-shrink-0">
                 <IoIosSpeedometer />
               </div>
@@ -36,7 +36,7 @@ const Features = () => {
                 </p>
               </div>
             </div>
-            <div class="p-4 w-full sm:w-full md:w-1/2 lg:w-1/4    flex flex-col text-center items-center">
+            <div class="p-4 w-full sm:w-full md:w-1/2 lg:w-1/4    flex flex-col text-center items-center" data-aos="fade-right">
               <div class="w-20 h-20 inline-flex items-center justify-center rounded-full text-4xl bg-purple-500 text-white mb-5 flex-shrink-0">
                 <FaLightbulb />
               </div>
@@ -49,7 +49,7 @@ const Features = () => {
                 </p>
               </div>
             </div>
-            <div class="p-4 w-full sm:w-full md:w-1/2 lg:w-1/4  flex flex-col text-center items-center">
+            <div class="p-4 w-full sm:w-full md:w-1/2 lg:w-1/4  flex flex-col text-center items-center" data-aos="fade-left">
               <div class="w-20 h-20 inline-flex items-center justify-center rounded-full text-4xl bg-purple-500 text-white mb-5 flex-shrink-0">
                 <FaMobileAlt />
               </div>
@@ -62,7 +62,7 @@ const Features = () => {
                 </p>
               </div>
             </div>
-            <div class="p-4 w-full sm:w-full md:w-1/2 lg:w-1/4   flex flex-col text-center items-center">
+            <div class="p-4 w-full sm:w-full md:w-1/2 lg:w-1/4   flex flex-col text-center items-center" data-aos="fade-left">
               <div class="w-20 h-20 inline-flex items-center justify-center rounded-full text-4xl bg-purple-500 text-white mb-5 flex-shrink-0">
                 <IoIosRocket />
               </div>

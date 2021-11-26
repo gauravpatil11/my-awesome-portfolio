@@ -20,87 +20,146 @@ const Projects = () => {
             </div>
           </div>
           <div class="projects mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid md:space-y-0 md:gap-2 md:grid md:grid-cols-2 lg:grid-cols-3">
-            <div class="project-card w-full py-6 bg-purple-500">
+            <div
+              class="project-card w-full py-6 bg-purple-500"
+              data-aos="zoom-in"
+            >
               <div className="overlay">
                 <span>ALAN NEWS APP</span>
-                <a href="#">React / Alan AI / Firebase</a>
-                <button className="bg-white text-purple-800 p-2 mt-4">
-                  Know More
-                </button>
+                <p>
+                  A voice controlled News App using React / Alan AI / Firebase
+                </p>
+                <a
+                  href="https://github.com/gauravpatil11/alan_ai_news_application_final"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="bg-white text-purple-800 p-2 mt-4">
+                    Know More
+                  </button>
+                </a>
               </div>
               <img
                 src="/images/newsApp.jpg"
-                alt="image"
+                alt="NewsApp"
                 className="object-contain h-full"
               />
             </div>
-            <div class="project-card w-full py-6 bg-purple-500">
+            <div
+              class="project-card w-full py-6 bg-purple-500"
+              data-aos="zoom-in"
+            >
               <div className="overlay">
                 <span>FOOD COURT</span>
-                <a href="#">A restaurant website made using HTML,CSS and JS</a>
-                <button className="bg-white text-purple-800 p-2 mt-4">
-                  Know More
-                </button>
+                <p>A restaurant website using HTML / CSS / JavaScript</p>
+                <a
+                  href="https://github.com/gauravpatil11/FoodWebsite"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="bg-white text-purple-800 p-2 mt-4">
+                    Know More
+                  </button>
+                </a>
               </div>
               <img
                 src="/images/FreshMeal.jpg"
-                alt="image"
+                alt="Food Court"
                 className="object-contain h-full"
               />
             </div>
-            <div class="project-card w-full  py-6 bg-purple-500">
+            <div
+              class="project-card w-full  py-6 bg-purple-500"
+              data-aos="zoom-in"
+            >
               <div className="overlay">
-                <span>PORTFOLIO</span>
-                <a href="#">HTML / CSS / JS</a>
-                <button className="bg-white text-purple-800 p-2 mt-4">
-                  Know More
-                </button>
+                <span>PERSONAL PORTFOLIO</span>
+                <p>A portfolio website using HTML / CSS / JavaScript</p>
+                <a
+                  href="https://github.com/gauravpatil11/PersonalPortfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="bg-white text-purple-800 p-2 mt-4">
+                    Know More
+                  </button>
+                </a>
               </div>
               <img
                 src="/images/portfolio.jpg"
-                alt="image"
+                alt="Personal Portfolio"
                 className="object-contain h-full"
               />
             </div>
-            <div class="project-card w-full  py-6 bg-purple-500">
+            <div
+              class="project-card w-full  py-6 bg-purple-500"
+              data-aos="zoom-in"
+            >
               <div className="overlay">
                 <span>BLOGGER</span>
-                <a href="#">HTML / CSS / JS</a>
-                <button className="bg-white text-purple-800 p-2 mt-4">
-                  Know More
-                </button>
+                <p>
+                  A blog wesite made with HTML / CSS / JS and also used AOS
+                  library.
+                </p>
+                <a
+                  href="https://github.com/gauravpatil11/Blogger"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="bg-white text-purple-800 p-2 mt-4">
+                    Know More
+                  </button>
+                </a>
               </div>
               <img
                 src="/images/blogger.jpg"
-                alt="image"
+                alt="Blogger"
                 className="object-contain h-full"
               />
             </div>
-            <div class="project-card w-full py-6 bg-purple-500">
+            <div
+              class="project-card w-full py-6 bg-purple-500"
+              data-aos="zoom-in"
+            >
               <div className="overlay">
-                <span>Category</span>
-                <a href="#">Web development</a>
-                <button className="bg-white text-purple-800 p-2 mt-4">
-                  Know More
-                </button>
+                <span>SNAKE MANIA</span>
+                <p>A snake game using HTML / CSS / JS</p>
+                <a
+                  href="https://github.com/gauravpatil11/Snake-Game"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="bg-white text-purple-800 p-2 mt-4">
+                    Know More
+                  </button>
+                </a>
               </div>
               <img
                 src="/images/snakeGame.jpg"
-                alt="image"
+                alt="Snake Mania"
                 className="object-contain h-full"
               />
             </div>
-            <div class="project-card w-full py-6 bg-purple-500">
+            <div
+              class="project-card w-full py-6 bg-purple-500"
+              data-aos="zoom-in"
+            >
               <div className="overlay">
-                <span>Category</span>
-                <a href="#">Web development</a>
-                <button className="bg-white text-purple-800 p-2 mt-4">
-                  Know More
-                </button>
+                <span>SOCIAL BOOK</span>
+                <p>A social media website using HTML / CSS / JS</p>
+                <a
+                  href="https://github.com/gauravpatil11/SocialBook"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="bg-white text-purple-800 p-2 mt-4">
+                    Know More
+                  </button>
+                </a>
               </div>
               <img
                 src="/images/socialBook.jpg"
-                alt="image"
+                alt="Social Book"
                 className="object-contain h-full"
               />
             </div>

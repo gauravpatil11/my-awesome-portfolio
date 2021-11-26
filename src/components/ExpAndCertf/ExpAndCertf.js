@@ -16,7 +16,7 @@ const Projects = () => {
             </div>
           </div>
           <div class="flex flex-wrap -m-4">
-            <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="lg:w-1/3 sm:w-1/2 p-4" data-aos="zoom-in">
               <div class="flex relative bg-gray-100 border-4 ec-card border-transparent border-purple-700">
                 <img
                   alt="gallery"
@@ -33,7 +33,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="lg:w-1/3 sm:w-1/2 p-4" data-aos="zoom-in">
               <div class="flex relative bg-gray-100 border-4 ec-card border-transparent border-purple-700">
                 <img
                   alt="gallery"
@@ -46,6 +46,23 @@ const Projects = () => {
                   </h1>
                   <p class="leading-relaxed">
                     Did this course from freeCodeCamp. Learnt a lot of things about responsive designs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4" data-aos="zoom-in">
+              <div class="flex relative bg-gray-100 border-4 ec-card border-transparent border-purple-700">
+                <img
+                  alt="gallery"
+                  class="absolute inset-0 w-full object-contain h-full"
+                  src="/images/intern2.jpg"
+                />
+                <div class="px-8 py-10 relative z-10 w-full border-2 border-gray-200 bg-purple-500 opacity-0 hover:opacity-100">
+                  <h1 class="title-font text-xl font-bold text-gray-900 mb-3">
+                    The Sparks Foundation
+                  </h1>
+                  <p class="leading-relaxed">
+                    Selected as an Inter at Sparks Foundation for the function Web Development & Designing.
                   </p>
                 </div>
               </div>

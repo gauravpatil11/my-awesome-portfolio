@@ -17,7 +17,7 @@ const Services = () => {
             </div>
           </div>
           <div class="flex flex-wrap -m-4">
-            <div class=" p-4 md:w-1/3 sm:w-full">
+            <div class=" p-4 md:w-1/3 sm:w-full" data-aos="flip-left">
               <div class="service-card h-full bg-transparent border-2 border-purple-500 bg-opacity-75 px-8 py-8 rounded-lg overflow-hidden text-center relative">
                 <h2 className="text-2xl title-font font-medium mb-4">
                   Landing Pages
@@ -28,7 +28,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div class="p-4 md:w-1/3 sm:w-full">
+            <div class="p-4 md:w-1/3 sm:w-full" data-aos="flip-up">
               <div class="service-card h-full bg-transparent border-2 border-purple-500 bg-opacity-75 px-8 py-8 rounded-lg overflow-hidden text-center relative">
                 <h2 className="text-2xl title-font font-medium mb-4">
                   Portfolio Websites
@@ -39,7 +39,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div class="p-4 md:w-1/3 sm:w-full">
+            <div class="p-4 md:w-1/3 sm:w-full" data-aos="flip-right">
               <div className="service-card h-full bg-transparent border-2 border-purple-500 bg-opacity-75 px-8 py-8 rounded-lg overflow-hidden text-center relative">
                 <h2 className="text-2xl title-font font-medium mb-4">
                   Figma, Sketch, XD to HTML/ReactJS

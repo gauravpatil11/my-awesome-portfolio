@@ -14,10 +14,10 @@ const Footer = () => {
           </div>
 
           <div class="flex justify-center ml-3">
-            <a class="ml-3 text-gray-100 text-2xl">
+            <a href="https://www.linkedin.com/in/gaurav-patil-11b283210/" class="ml-3 text-gray-100 text-2xl" target="_blank" rel="noreferrer">
               <BsLinkedin />
             </a>
-            <a class="ml-3 text-gray-100 text-2xl">
+            <a href="https://github.com/gauravpatil11" class="ml-3 text-gray-100 text-2xl" target="_blank" rel="noreferrer">
               <FaGithub />
             </a>
           </div>
