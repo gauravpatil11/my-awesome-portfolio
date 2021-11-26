@@ -5,23 +5,23 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div>
-      <section class="text-white bg-gray-900 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="text-center mb-20">
-            <h1 class="text-purple-500 tracking-wide text-3xl md:text-4xl lg:text-4xl font-bold  mb-4">
+      <section className="text-white bg-gray-900 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="text-center mb-20">
+            <h1 className="text-purple-500 tracking-wide text-3xl md:text-4xl lg:text-4xl font-bold  mb-4">
               <Wave text="PROJECTS" speed={10} delay={1.5} />
             </h1>
             <p>
               In my spare time I like to tinker on side projects. These are some
               of the results.
             </p>
-            <div class="flex mt-6 justify-center">
-              <div class="glow-shadow w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
+            <div className="flex mt-6 justify-center">
+              <div className="glow-shadow w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
             </div>
           </div>
-          <div class="projects mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid md:space-y-0 md:gap-2 md:grid md:grid-cols-2 lg:grid-cols-3">
+          <div className="projects mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid md:space-y-0 md:gap-2 md:grid md:grid-cols-2 lg:grid-cols-3">
             <div
-              class="project-card w-full py-6 bg-purple-500"
+              className="project-card w-full py-6 bg-purple-500"
               data-aos="zoom-in"
             >
               <div className="overlay">
@@ -46,7 +46,7 @@ const Projects = () => {
               />
             </div>
             <div
-              class="project-card w-full py-6 bg-purple-500"
+              className="project-card w-full py-6 bg-purple-500"
               data-aos="zoom-in"
             >
               <div className="overlay">
@@ -69,7 +69,7 @@ const Projects = () => {
               />
             </div>
             <div
-              class="project-card w-full  py-6 bg-purple-500"
+              className="project-card w-full  py-6 bg-purple-500"
               data-aos="zoom-in"
             >
               <div className="overlay">
@@ -92,7 +92,7 @@ const Projects = () => {
               />
             </div>
             <div
-              class="project-card w-full  py-6 bg-purple-500"
+              className="project-card w-full  py-6 bg-purple-500"
               data-aos="zoom-in"
             >
               <div className="overlay">
@@ -118,7 +118,7 @@ const Projects = () => {
               />
             </div>
             <div
-              class="project-card w-full py-6 bg-purple-500"
+              className="project-card w-full py-6 bg-purple-500"
               data-aos="zoom-in"
             >
               <div className="overlay">
@@ -141,7 +141,7 @@ const Projects = () => {
               />
             </div>
             <div
-              class="project-card w-full py-6 bg-purple-500"
+              className="project-card w-full py-6 bg-purple-500"
               data-aos="zoom-in"
             >
               <div className="overlay">

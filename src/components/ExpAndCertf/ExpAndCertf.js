@@ -4,13 +4,13 @@ import "./ExpAndCertf.css";
 const Projects = () => {
   return (
     <div>
-      <section class="text-white bg-gray-900 body-font">
+      <section class="text-white bg-gray-800 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
             <h1 class="text-purple-500 tracking-wide text-3xl md:text-4xl lg:text-4xl font-bold  mb-4">
               <Wave text="EXP & CERTIFS" speed={10} delay={1.5} />
             </h1>
-            <p>My internships and different courses certificates.</p>
+            <p>My experience and course certifications.</p>
             <div class="flex mt-6 justify-center">
               <div class="glow-shadow w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
             </div>
@@ -45,7 +45,7 @@ const Projects = () => {
                     Responsive Web Design
                   </h1>
                   <p class="leading-relaxed">
-                    Did this course from freeCodeCamp. Learnt a lot of things about responsive designs.
+                    Learnt HTML ,CSS and a lot of things about responsive designs. Also made some projects.
                   </p>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const Projects = () => {
                     The Sparks Foundation
                   </h1>
                   <p class="leading-relaxed">
-                    Selected as an Inter at Sparks Foundation for the function Web Development & Designing.
+                    Selected as an Intern at Sparks Foundation for the function Web Development & Designing.
                   </p>
                 </div>
               </div>

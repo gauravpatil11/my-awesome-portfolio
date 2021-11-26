@@ -6,22 +6,22 @@ import "./About.css";
 const About = () => {
 
   return (
-    <section class="text-white bg-gray-800 body-font overflow-hidden px-6">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="text-center mb-20">
-          <h1 class="text-purple-500 tracking-wide text-3xl md:text-4xl lg:text-4xl font-bold  mb-4">
+    <section className="text-white bg-gray-800 body-font overflow-hidden px-6">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="text-center mb-20">
+          <h1 className="text-purple-500 tracking-wide text-3xl md:text-4xl lg:text-4xl font-bold  mb-4">
             <Wave text="ABOUT ME" speed={10} delay={1.5} />
           </h1>
           <p>
             Hello , I'm a Web Developer pursuing BE from VPPCOE.
           </p>
-          <div class="flex mt-6 justify-center">
-            <div class="glow-shadow w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
+          <div className="flex mt-6 justify-center">
+            <div className="glow-shadow w-16 h-1 rounded-full bg-purple-500 inline-flex"></div>
           </div>
         </div>
-        <div class="flex flex-wrap -m-12">
+        <div className="flex flex-wrap -m-12">
           <div
-            class="p-8 md:w-1/2 flex flex-col items-center"
+            className="p-8 md:w-1/2 flex flex-col items-center"
             data-aos="fade-right"
           >
             <img
@@ -37,7 +37,7 @@ const About = () => {
             </p>
           </div>
           <div
-            class="p-8 md:w-1/2 flex flex-col items-center sm:w-full w-full"
+            className="p-8 md:w-1/2 flex flex-col items-center sm:w-full w-full"
             data-aos="fade-left"
           >
             <div className="w-full flex items-center mb-7">
